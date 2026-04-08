@@ -412,7 +412,7 @@ body::after {
   height: min(65vw, 350px);
 
   border-radius: 50%;
-  border: 3px solid var(--accent);
+  border: 5px solid var(--accent);
 
   transform: translate(-50%, -50%);
   z-index: 0;
