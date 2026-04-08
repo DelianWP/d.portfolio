@@ -412,7 +412,7 @@ body::after {
   height: 12px;
   border-radius: 50%;
   background: var(--accent);
-  box-shadow: none !important;
+  box-shadow:  0 0 16px var(--accent);
   animation: pulse 2.5s ease-in-out infinite;
   z-index: 3;
 }
