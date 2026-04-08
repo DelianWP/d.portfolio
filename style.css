@@ -426,7 +426,7 @@ body::after {
   overflow: visible !important;           /* KRUSIAL: jangan potong */
   background: transparent !important;
   box-shadow: 0 0 0 3px var(--accent) !important; /* border emas */
-  border: none !important;
+  border: 0 25px 40px -10px rgba(0,0,0,0.5); !important;
   transition: box-shadow 0.3s ease !important;
   z-index: 2;
 
@@ -453,7 +453,7 @@ body::after {
   transition: transform 0.45s cubic-bezier(0.2,0.9,0.4,1),
               clip-path 0.45s ease,
               box-shadow 0.3s ease !important;
-  box-shadow: none !important;
+  box-shadow: 0 25px 40px -10px rgba(0,0,0,0.5); !important;
   z-index: 2;
   position: relative;
 }
