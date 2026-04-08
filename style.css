@@ -453,7 +453,7 @@ body::after {
   transition: transform 0.45s cubic-bezier(0.2,0.9,0.4,1),
               clip-path 0.45s ease,
               box-shadow 0.3s ease !important;
-  box-shadow: 0 12px 25px -8px rgba(0,0,0,0.3) !important;
+  box-shadow: none !important;
   z-index: 2;
   position: relative;
 }
@@ -499,7 +499,7 @@ body::after {
   transform: translateY(-18px) scale(1.02) !important;
   /* Kurva dibuat lebih landai (titik kontrol lebih rendah) */
   clip-path: path("M 0,0 L 100%,0 L 100%,100% Q 50%,90% 0,100% Z") !important;
-  box-shadow: 0 25px 35px -10px rgba(0,0,0,0.4) !important;
+  box-shadow: none !important;
 }
 
 .photo-frame:hover::before {
