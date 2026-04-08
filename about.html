@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About — Del's Page</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=DM+Mono:wght@300;400;500&family=Outfit:wght@200;300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <div class="cursor-ring" id="cursor-ring"></div>
+  <div class="cursor-dot"  id="cursor-dot"></div>
+
+  <header class="site-header" id="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">Del<span class="logo-accent">'s</span> Page</a>
+      <nav class="nav-desktop">
+        <a href="index.html"       class="nav-link"        data-page="home">Home</a>
+        <a href="about.html"       class="nav-link active" data-page="about">About</a>
+        <a href="experiences.html" class="nav-link"        data-page="experiences">Experiences</a>
+        <a href="contact.html"     class="nav-link"        data-page="contact">Contact</a>
+        <button class="theme-btn" id="theme-btn" aria-label="Toggle theme">
+          <span class="theme-icon" id="theme-icon">☀</span>
+        </button>
+      </nav>
+      <div class="nav-mobile-controls">
+        <button class="theme-btn" id="theme-btn-mob"><span id="theme-icon-mob">☀</span></button>
+        <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+    <div class="mobile-menu" id="mobile-menu">
+      <a href="index.html"       class="mob-link">HOME</a>
+      <a href="about.html"       class="mob-link active">ABOUT</a>
+      <a href="experiences.html" class="mob-link">EXPERIENCES</a>
+      <a href="contact.html"     class="mob-link">CONTACT</a>
+    </div>
+  </header>
+
+  <main class="page-inner">
+    <div class="container">
+
+      <!-- PAGE TITLE -->
+      <div class="page-title reveal">
+        <p class="section-num">01 / ABOUT</p>
+        <h1 class="page-heading">About <em>Me.</em></h1>
+      </div>
+
+      <!-- BIO -->
+      <section class="section-block reveal">
+        <div class="section-label-row">
+          <div class="label-line"></div>
+          <span class="label-text">BIO</span>
+        </div>
+        <div class="bio-grid">
+          <p class="bio-text">
+            Motivated and adaptable student with a strong interest in technology,
+            innovation, and collaborative learning. Experienced in analytical and
+            project-based activities that develop problem-solving and teamwork skills.
+          </p>
+          <p class="bio-text muted">
+            Seeking opportunities to expand knowledge, gain professional experience,
+            and contribute to dynamic environments that encourage growth, creativity,
+            and continuous learning.
+          </p>
+        </div>
+      </section>
+
+      <!-- EDUCATION -->
+      <section class="section-block reveal">
+        <div class="section-label-row">
+          <div class="label-line"></div>
+          <span class="label-text">EDUCATION</span>
+        </div>
+
+        <div class="edu-card reveal">
+          <div class="edu-card-top">
+            <div>
+              <h3 class="edu-school">Electronic Engineering Polytechnic Institute of Surabaya</h3>
+              <p class="edu-place accent">EEPIS · Surabaya</p>
+              <p class="edu-degree">Bachelor of Applied Science in Telecommunications Engineering</p>
+              <p class="edu-gpa">GPA: 3.50 / 4.00</p>
+            </div>
+            <span class="badge badge-accent">2023 – Present</span>
+          </div>
+          <div class="edu-coursework">
+            <p class="coursework-label">RELEVANT COURSEWORK</p>
+            <div class="badge-wrap">
+              <span class="badge">Digital Communication Systems</span>
+              <span class="badge">Signal Encoding Techniques</span>
+              <span class="badge">Network Traffic Engineering</span>
+              <span class="badge">Data Analysis &amp; Visualization</span>
+              <span class="badge">Machine Learning Fundamentals</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="edu-card reveal">
+          <div class="edu-card-top">
+            <div>
+              <h3 class="edu-school">SMK Telkom Sidoarjo</h3>
+              <p class="edu-place accent">Sidoarjo</p>
+              <p class="edu-degree">Vocational High School · <span class="muted-text">Major: Telecommunication Access Network Engineering</span></p>
+            </div>
+            <span class="badge">2020 – 2023</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS WINDOWS -->
+      <section class="section-block reveal">
+        <div class="section-label-row">
+          <div class="label-line"></div>
+          <span class="label-text">SKILLS</span>
+        </div>
+
+        <div class="windows-grid">
+
+          <!-- Soft Skills -->
+          <div class="os-window reveal">
+            <div class="os-bar">
+              <span class="os-dot red"></span>
+              <span class="os-dot yellow"></span>
+              <span class="os-dot green"></span>
+              <span class="os-title">soft-skills.txt</span>
+            </div>
+            <div class="os-body">
+              <div class="badge-wrap">
+                <span class="badge">Leadership</span>
+                <span class="badge">Team Collaboration</span>
+                <span class="badge">Problem Solving</span>
+                <span class="badge">Communication</span>
+                <span class="badge">Adaptability</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hard Skills -->
+          <div class="os-window reveal">
+            <div class="os-bar">
+              <span class="os-dot red"></span>
+              <span class="os-dot yellow"></span>
+              <span class="os-dot green"></span>
+              <span class="os-title">hard-skills.json</span>
+            </div>
+            <div class="os-body">
+              <ul class="skill-list">
+                <li><span class="skill-bullet"></span>Network Troubleshooting</li>
+                <li><span class="skill-bullet"></span>FTTH Network Planning</li>
+                <li><span class="skill-bullet"></span>Fiber Optic Fundamentals</li>
+                <li><span class="skill-bullet"></span>Data Processing</li>
+                <li><span class="skill-bullet"></span>Machine Learning Fundamentals</li>
+                <li><span class="skill-bullet"></span>Backend Development Basics</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Software -->
+          <div class="os-window reveal">
+            <div class="os-bar">
+              <span class="os-dot red"></span>
+              <span class="os-dot yellow"></span>
+              <span class="os-dot green"></span>
+              <span class="os-title">software.sh</span>
+            </div>
+            <div class="os-body">
+              <ul class="skill-list terminal">
+                <li><span class="prompt">$</span>Microsoft Office Suite</li>
+                <li><span class="prompt">$</span>AutoCAD</li>
+                <li><span class="prompt">$</span>VS Code</li>
+                <li><span class="prompt">$</span>Multisim</li>
+                <li><span class="prompt">$</span>Proteus</li>
+                <li><span class="prompt">$</span>Google Earth</li>
+                <li><span class="prompt">$</span>Python</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- LANGUAGES -->
+      <section class="section-block reveal">
+        <div class="section-label-row">
+          <div class="label-line"></div>
+          <span class="label-text">LANGUAGES</span>
+        </div>
+        <div class="lang-grid">
+          <div class="lang-card reveal">
+            <div class="lang-top">
+              <span class="lang-name">Indonesian</span>
+              <span class="badge badge-accent">Proficient</span>
+            </div>
+            <div class="lang-bar-bg">
+              <div class="lang-bar" data-pct="100"></div>
+            </div>
+          </div>
+          <div class="lang-card reveal">
+            <div class="lang-top">
+              <span class="lang-name">English</span>
+              <span class="badge badge-accent">Intermediate</span>
+            </div>
+            <div class="lang-bar-bg">
+              <div class="lang-bar" data-pct="60"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CERTIFICATIONS -->
+      <section class="section-block reveal">
+        <div class="section-label-row">
+          <div class="label-line"></div>
+          <span class="label-text">CERTIFICATIONS</span>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-inner">
+            <div>
+              <h4 class="cert-name">MikroTik Certified Network Associate (MTCNA)</h4>
+              <p class="cert-meta">MikroTik · SMK Telkom Sidoarjo</p>
+            </div>
+            <span class="badge badge-accent">2023</span>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p class="footer-text">Delian Wahyu Pradana — ©<span id="year"></span></p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
