@@ -425,8 +425,7 @@ body::after {
   border-radius: 50% !important;          /* border lingkaran */
   overflow: visible !important;           /* KRUSIAL: jangan potong */
   background: transparent !important;
-  box-shadow: 0 0 0 3px var(--accent) !important; /* border emas */
-  border: 0 25px 40px -10px rgba(0,0,0,0.5); !important;
+  box-shadow: none !important; /* border emas */
   transition: box-shadow 0.3s ease !important;
   z-index: 2;
 
